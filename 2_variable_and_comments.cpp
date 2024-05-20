@@ -8,7 +8,7 @@
 // Double     4.44789749879847984    Decimal number of high precision
 // Boolean    true/false
 
-// Variable names in C++ can range from I to 255 characters.
+// Variable names in C++ can range from 1 to 255 characters.
 
 // int sum = 34; means sum is an integer variable which holds value 34 in memory
 
