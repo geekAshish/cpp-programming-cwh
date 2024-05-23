@@ -2,5 +2,6 @@
 
 int main() {
   std::cout<<"This is my first c++ programme!";
-  return 0;
+
+  return 0; // programme executed successfully
 }
