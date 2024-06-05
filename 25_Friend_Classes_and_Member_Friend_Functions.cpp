@@ -11,6 +11,7 @@ class Calculator {
       return (a + b);
     }
 
+    // Forward declaration is important to access Complex class before declaration
     int sumRealComplex(Complex, Complex);
     int sumCompComplex(Complex, Complex);
 };
