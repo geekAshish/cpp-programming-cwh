@@ -18,7 +18,7 @@ class Complex {
     }
 };
 
-Complex :: Complex(void) { // It's a default constructor as it takes no parameters
+Complex :: Complex(void) { // It's a default constructor as it accepts no parameters
   a = 4;
   b = 8;
   cout<<"Hello World";
