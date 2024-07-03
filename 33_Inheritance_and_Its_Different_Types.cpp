@@ -50,8 +50,55 @@ using namespace std;
 // Animal -->            --> Bat
 //            --> Bird
 
-int main() {
 
+// base class
+class Employee {
+  public:
+    int id;
+    int salary;
+    Employee(int inpId) {
+      id = inpId;
+      salary = 34;
+    }
+    // when you create derived class default constructor wil be called automatically
+    // so it's important
+    Employee() {};
+};
+
+// Derived class
+/*
+class derived-class-name : visibility-mode base-class-name
+{
+  class member/methods/etc...
+}
+
+Notes:
+1. Default visibility mode is private
+2. Public Visibility Mode: Public members of the base class becomes Public members of the derived class
+3. Private Visibility Mode: Public members of the base class becomes Private members of the derived class
+4. Private members are never inherited
+*/
+
+class Programmer : Employee {
+  public:
+    Programmer(int inpId) {
+      id = inpId;
+    }
+    int languageId = 5;
+    void getData() {
+      cout<<"id is "<<id<<endl;
+    }
+};
+
+
+int main() {
+  Employee e1(1), e2(2);
+  cout<<e1.id<<endl;
+  cout<<e2.id<<endl;
+
+  Programmer p1(12), p2(22);
+  cout<<p1.languageId<<endl;
+  p1.getData();
 
   return 0;
 }
