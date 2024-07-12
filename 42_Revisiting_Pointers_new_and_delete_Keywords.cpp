@@ -9,8 +9,9 @@ int main() {
 
   // new Operator
   int *p = new int(5);// dynamic allocated int will be freed
-  float *g = new float(5);
-  cout<<"The value at p, g is: "<<*(p)<<", "<<*(p)<<endl;
+  float *g = new float(15);
+  cout<<"The p is "<<p<<endl;
+  cout<<"The value at p, g is: "<<*p<<", "<<*g<<endl;
 
   int* arr = new int[3];
   arr[0] = 10;
