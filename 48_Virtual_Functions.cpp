@@ -18,6 +18,14 @@ class DerivedClass : public BaseClass{
     }
 };
 
+
+// Rules of Virtual Functions
+// 1. They can't be static
+// 2. They are accessed by object pointers
+// 3. Virtual function can be a friend of the another class
+// 4. A virtual function in a base class might not be used
+// 5. If a virtual function is defined in a base class, there is no necessity of redefining it in the derived class
+
 int main() {
   BaseClass * base_class_pointer;
   BaseClass obj_base;
