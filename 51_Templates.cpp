@@ -15,6 +15,16 @@ Why use Templates?
 // template <class T1, class T2> // Templates with Multiple Parameters
 // template <class T1=int, class T2=float, class T3=char> // Templates with default Parameters
 // template <class T1, class T2> // you can do the same for functions, instead of function overloading we can use templates
+
+/*
+Member Function Templates
+
+template <class T>
+void className<T> :: display() {
+  cout<<data<<endl;
+}
+
+*/
 template <class T>
 class vector {
   public:
