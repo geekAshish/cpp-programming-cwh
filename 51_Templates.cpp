@@ -25,6 +25,23 @@ void className<T> :: display() {
 }
 
 */
+
+/*
+// overloading template
+
+void func(int a) {
+  cout<<"normal function"<<a<<endl;
+}
+
+template <class T>
+void func(T a) {
+  cout<<"templatized function"<<a<<endl;
+}
+
+// while invoking the function, EXACT match takes the highest priority
+func(5); // normal function will take priority
+
+*/
 template <class T>
 class vector {
   public:
