@@ -12,6 +12,7 @@ Why use Templates?
 2. Generic Programming
 */
 
+// template <class T1, class T2> // Templates with Multiple Parameters
 template <class T>
 class vector {
   public:
