@@ -13,6 +13,7 @@ Why use Templates?
 */
 
 // template <class T1, class T2> // Templates with Multiple Parameters
+// template <class T1=int, class T2=float, class T3=char> // Templates with default Parameters
 template <class T>
 class vector {
   public:
